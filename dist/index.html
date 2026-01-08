@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			href="resources/favicon.ico"
+			type="image/x-icon"
+			sizes="96x96"
+		/>
+
+		<title>Join Our Newsletter | devChallenges.io</title>
+
+		<!--You are welcome to delete these styles or modify them in your own stylesheet -->
+		<style>
+			* {
+			  margin: 0;
+			  padding: 0;
+			  box-sizing: border-box;
+			}
+
+			body {
+			  height: 100vh;
+        align-items: center;
+        align-content: center;
+        font-family: 'Poppins';
+			}
+
+      .header {
+        margin: 10px auto 0;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+      .header h1 {
+        font-size: 1.985rem;
+        font-weight: 600;
+        color: #000000;
+      }
+      .header p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #6C727F;
+      }
+
+      main {
+        min-height: 400px;
+        width: 100%;
+      }
+
+      .form {
+        margin: 80px auto 0;
+        padding: 20px;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        border-radius: 15px;
+        /* background-color: blueviolet; */
+        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+      }
+
+      #email {
+        padding: 16px;
+        border: 1px solid #E5E7EB;
+        border-radius: 12px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #000000;
+        background-color: #F9FAFB;
+      }
+
+      .form-btn {
+        border: none;
+        padding: 16px;
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #F9FAFB;
+        background-color: #284BCE;
+      }
+
+      .form span {
+        font-size: 0.875rem;
+        line-height: 16px;
+        color: #394150;
+      }
+
+			.author-info {
+			  font-size: 14px;
+			  text-align: center;
+			  margin-top: 16px;
+			  color: rgb(55, 65, 81);
+			}
+
+			.author-info a {
+			  text-decoration: none;
+			}
+
+      @media screen and (min-width: 1024px) {
+        .header {
+          width: 580px;
+        }
+
+        .header h1 {
+          font-size: 2.5rem;
+        }
+
+        .form {
+          margin: 40px auto 0;
+          width: 475px;
+        }
+      }
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<img class="brand" src="./resources/logo.svg" alt="Logo image" />
+			<h1>Join our newsletter</h1>
+			<p>
+				Keep up with our latest collections, exclusive deals, and special
+				offers! <br> We introduce a new collection every week, so stay tuned to snag
+				the hottest items just for you.
+			</p>
+		</header>
+		<main>
+			<form class="form">
+				<input
+					type="text"
+					name="email"
+					id="email"
+					placeholder="Enter your email address"
+				/>
+				<input class="form-btn" type="button" value="Subscribe now" />
+				<span
+					>Your email is 100% confidential and won’t send you any spam.</span
+				>
+			</form>
+		</main>
+
+		<div class="author-info">
+			Coded by <a href="https://github.com/xEduardo">Eduardo Leon R.</a> | Challenge by
+			<a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+				>devChallenges.io</a
+			>.
+		</div>
+	</body>
+</html>
